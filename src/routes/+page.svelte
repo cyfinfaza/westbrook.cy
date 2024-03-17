@@ -14,7 +14,7 @@
 </svelte:head>
 
 <main>
-	<h1>👋 Cy Westbrook here.</h1>
+	<h1><span class="wave">👋</span> Cy Westbrook here.</h1>
 	<p>
 		ECE and CS student at Rutgers University (Engineering Honors Academy). <br
 		/> Passionate for anything screens, circuits, software, stages, and sound.
@@ -114,6 +114,27 @@
 				content: "→";
 			}
 		}
+		@keyframes fadein {
+			from {
+				opacity: 0;
+				transform: translateY(24px) rotate(3deg);
+			}
+		}
+		@for $i from 1 through 20 {
+			> *:nth-child(#{$i + 1}n) {
+				animation: fadein 1s cubic-bezier(0.2, 0.5, 0, 1) backwards;
+				animation-delay: #{0.4 + $i * 0.06}s;
+			}
+		}
+	}
+	@keyframes rotateUp {
+		from {
+			transform: rotateX(-90deg);
+		}
+	}
+	.wave {
+		display: inline-block;
+		animation: rotateUp 0.3s ease-out backwards;
 	}
 	.startDimmer,
 	.endDimmer {
