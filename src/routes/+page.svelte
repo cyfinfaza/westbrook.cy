@@ -74,7 +74,7 @@
 		worked on dozens of productions in school, community theater, and also some
 		professional settings since I first started in middle school. I work mostly
 		on live mixing audio, but have also spent a lot of time building custom
-		lighting electronics for sets. See the whole list of show's I've been a part
+		lighting electronics for sets. See the whole list of shows I've been a part
 		of and what I did for each one on my tech theater timeline.
 	</p>
 	<a href="https://cy2.me/technical-theater" target="_blank"
