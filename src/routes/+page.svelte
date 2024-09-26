@@ -95,7 +95,7 @@
 		anywhere in the field of electronics and software. Download my resume below.
 	</p>
 	<a
-		href="https://docs.google.com/document/u/0/export?format=pdf&id=1Tb0DVdt2pllXS-4br65yIsJVsH1ubAoxAfIsjaLLT1I"
+		href="https://docs.google.com/document/u/0/export?format=pdf&id=1PVESxQDrdTVW9Cn-9xM8qRXvt6QwudLwZwuURE31WXg"
 		>Download my resume</a
 	>
 	<div class="startDimmer"></div>
